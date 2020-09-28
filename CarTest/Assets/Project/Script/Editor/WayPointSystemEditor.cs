@@ -7,6 +7,7 @@ public class WayPointSystemEditor : Editor
 {
    private WayPointSystem waypointSystem;
    public float arrowSize = 1;
+   Vector3 cubeSize = new Vector3(1,1,1);
 
    private void OnEnable()
    {
@@ -19,7 +20,8 @@ public class WayPointSystemEditor : Editor
       {
          Handles.Label(waypointSystem.points[i], "WayPoint: "+i.ToString(), new GUIStyle { normal = new GUIStyleState() { textColor = Color.white }, alignment = TextAnchor.MiddleCenter, fontSize = 10 });
          waypointSystem.points[i] = Handles.DoPositionHandle(waypointSystem.points[i], Quaternion.identity);
-         Handles.SphereHandleCap(0, waypointSystem.points[i], Quaternion.identity, waypointSystem.radius, EventType.Repaint);
+         //Handles.SphereHandleCap(0, waypointSystem.points[i], Quaternion.identity, waypointSystem.radius, EventType.Repaint);
+         Handles.DrawWireCube(waypointSystem.points[i], cubeSize*waypointSystem.radius);
          Vector3 next;
          if (i+1 < waypointSystem.points.Length)
          {

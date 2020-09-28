@@ -66,7 +66,10 @@
      <Compile Include="Assets\Project\3D\Characters\Supercyan Character Pack Zombie Sample\Scripts\ZombieFree.cs" />
      <Compile Include="Assets\Project\Script\AI\AIController.cs" />
      <Compile Include="Assets\Project\Script\AI\WayPointSystem.cs" />
+     <Compile Include="Assets\Project\Script\CameraFollow\DriftCamera.cs" />
+     <Compile Include="Assets\Project\Script\Kart\AntiRollBar.cs" />
      <Compile Include="Assets\Project\Script\Kart\DriveTest.cs" />
+     <Compile Include="Assets\Project\Script\Kart\FlipKart.cs" />
      <Compile Include="Assets\Project\Script\Kart\Wheel.cs" />
      <Compile Include="Assets\Project\Script\Player\PlayerController.cs" />
      <Compile Include="Assets\Scripts\SimpleCameraController.cs" />

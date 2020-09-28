@@ -5,11 +5,11 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    private DriveTest carManager;
+    private CarManager carManager;
 
     private void Start()
     {
-        carManager = GetComponent<DriveTest>();
+        carManager = GetComponent<CarManager>();
     }
 
     private void Update()

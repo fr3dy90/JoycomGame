@@ -68,7 +68,7 @@
      <Compile Include="Assets\Project\Script\AI\WayPointSystem.cs" />
      <Compile Include="Assets\Project\Script\CameraFollow\DriftCamera.cs" />
      <Compile Include="Assets\Project\Script\Kart\AntiRollBar.cs" />
-     <Compile Include="Assets\Project\Script\Kart\DriveTest.cs" />
+     <Compile Include="Assets\Project\Script\Kart\CarManager.cs" />
      <Compile Include="Assets\Project\Script\Kart\FlipKart.cs" />
      <Compile Include="Assets\Project\Script\Kart\Wheel.cs" />
      <Compile Include="Assets\Project\Script\Player\PlayerController.cs" />

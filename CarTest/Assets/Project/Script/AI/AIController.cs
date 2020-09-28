@@ -6,7 +6,7 @@ using UnityEngine;
 public class AIController : MonoBehaviour
 {
     public WayPointSystem waypoints;
-    private DriveTest carManager;
+    private CarManager carManager;
     public float steeringSensitive = 0.01f;
     private Vector3 target;
     private int currentWaypoint = 0;
@@ -14,7 +14,7 @@ public class AIController : MonoBehaviour
 
     private void Start()
     {
-        carManager = GetComponent<DriveTest>();
+        carManager = GetComponent<CarManager>();
         target = waypoints.points[currentWaypoint];
     }
 

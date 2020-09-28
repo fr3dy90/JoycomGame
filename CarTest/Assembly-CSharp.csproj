@@ -64,8 +64,11 @@
      <Compile Include="Assets\Project\3D\Characters\Supercyan Character Pack Zombie Sample\Scripts\ZombieCameraLogic.cs" />
      <Compile Include="Assets\Project\3D\Characters\Supercyan Character Pack Zombie Sample\Scripts\ZombieCharacterControl.cs" />
      <Compile Include="Assets\Project\3D\Characters\Supercyan Character Pack Zombie Sample\Scripts\ZombieFree.cs" />
-     <Compile Include="Assets\Project\Script\DriveTest.cs" />
-     <Compile Include="Assets\Project\Script\Wheel.cs" />
+     <Compile Include="Assets\Project\Script\AI\AIController.cs" />
+     <Compile Include="Assets\Project\Script\AI\WayPointSystem.cs" />
+     <Compile Include="Assets\Project\Script\Kart\DriveTest.cs" />
+     <Compile Include="Assets\Project\Script\Kart\Wheel.cs" />
+     <Compile Include="Assets\Project\Script\Player\PlayerController.cs" />
      <Compile Include="Assets\Scripts\SimpleCameraController.cs" />
      <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
      <None Include="Assets\Project\3D\Characters\Supercyan Character Pack Zombie Sample\Shaders\Legacy\CelShader.shader" />
